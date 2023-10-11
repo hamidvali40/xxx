@@ -25,8 +25,7 @@ pragma solidity >=0.8.0;
 
 contract Test {
     function property_transfer(address _token, address _to, uint _amt) public {
-        require(_to != address(this));
-
+        require(_to != address(
         TokenCorrect t = TokenCorrect(_token);
 
         uint xPre = t.balanceOf(address(this));
@@ -38,4 +37,4 @@ contract Test {
         uint yPost = t.balanceOf(_to);
 
         assert(xPost == xPre - _amt);
-        assert(yPost == yPre + _amt);
+    
