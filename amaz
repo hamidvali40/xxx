@@ -30,4 +30,3 @@ contract Test {
 
         uint xPre = t.balanceOf(address(this));
         require(xPre >= _amt);
-        uint yPre 
