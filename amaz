@@ -28,4 +28,4 @@ contract Test {
         require(_to != address(
         TokenCorrect t = TokenCorrect(_token);
 
-        uint xPre = t.balanceOf
+    
