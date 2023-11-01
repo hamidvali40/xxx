@@ -25,5 +25,4 @@ pragma solidity >=0.8.0;
 
 contract Test {
     function property_transfer(address _token, address _to, uint _amt) public {
-        require(_to != address(
         
