@@ -22,5 +22,3 @@ pragma solidity >=0.8.0;
         balance[_to] += _amt;
     }
 }
-
-contract Test {
